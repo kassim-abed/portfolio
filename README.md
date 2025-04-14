@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+
 <html lang="fr"> 
   <head>
     <meta charset="UTF-8" />
@@ -97,7 +97,6 @@
             </li>
             <li class="link_list"><a role="link" aria-label="M'envoyer un e-mail !" href="mailto:kassim.abed@laplateforme.io" target="_blank" rel="noopener noreferrer">
                 kassim.abed@laplateforme.io</a>
-                <br></br>
             </li>
         </ul>
       </section>
