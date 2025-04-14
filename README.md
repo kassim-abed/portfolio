@@ -1,1 +1,112 @@
-# portfolio
+<!DOCTYPE html>
+<html lang="fr"> 
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Portfolio de Kassim, apprenti à La Plateforme, spécialisé dans le développement de jeux vidéo.">
+    <meta name="keywords" content="Kassim, Portfolio, Développement de jeux vidéo, Apprenti, La Plateforme">
+    Mon CV
+    <link rel="stylesheet" href="./site.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet"> 
+  </head>
+  <body>
+    <header>
+      <h1>Kassim</h1>
+      <p>Apprenti à la plateforme en logiciel et immersif, cherche à me spécialiser dans le développement de jeux vidéos dès septembre 2025 pour une durée de 4 semaines en entreprise et 1 semaine à l'école </p>
+    </header>
+    
+  <main>
+      <article>
+        <section>
+          <h2>À propos de moi</h2>
+          <p>
+            J’adore regarder des animés, ces univers qui me transportent dans des histoires palpitantes et remplies d’émotions. Les jeux vidéo sont aussi une passion : ils me permettent de vivre des aventures uniques et de relever des défis captivants. À côté de cela, je vais régulièrement à la salle de sport pour me dépasser et garder un bon équilibre. Ce mélange entre détente, compétition et effort physique me permet de m’épanouir pleinement. Chaque jour est une nouvelle opportunité de vivre ce que j’aime à fond.
+          </p>
+        </section>
+      </article>
+
+  <article>
+        <section>
+          <h2>Éducation</h2>
+          <ul>
+            <li>
+              <strong>Ecole La plateforme</strong> - Bachelor IT (Actuellement)
+            </li>
+            <li>
+              <strong>Lycée Rempart</strong> - BTS Conception Réalisation Système Automatisé (2021-2023)
+            </li>
+            <li>
+              <strong>Lycée Saint Éxupery</strong> - Bac Technologique spécialité ITEC (2019-2021)
+            </li>
+          </ul>
+        </section>
+      </article>
+
+  <article>
+        <section>
+          <h2>Expérience</h2>
+          <ul>
+            <li>
+              <strong>Ecole La Plateforme</strong> - Apprenti (Actuellement)
+              <p>J'ai pu faire plusieurs projets dont pokémon, budget buddy, démineur, fruit slicer, horloge, calculatrice et le pendu tout ça en langague python et j'ai utiliser pour certains projets la librairie Pygame pour avoir une interface graphique.</p>
+            </li>
+            <li>
+              <strong>Atalian</strong> - Agent d'entretien (2024)
+              <p></p>
+            </li>
+            <li>
+              <strong>Simplon</strong> - Apprenti (2024)
+              <p>Nous avons été initiés au langage propre à Apple, car la formation de Simplon le proposait pour nous initier. Nous devions utiliser Figma, qui est une application de maquettage, ainsi que Swift UI/UX, afin de concevoir une application mobile à la fin de la formation.</p>
+            </li>
+            <li>
+              <strong>MC Stores</strong> - Stagiaire (2022)
+              <p></p>
+            </li>
+            <li>
+              <strong>Centre aéré</strong> - Animateur (2019-2021)
+            </li>
+          </ul>
+        </section>
+      </article>
+
+  <article>
+        <section>
+          <h2>Compétences</h2>
+          <ul>
+            <li>Compétence 1</li>
+            <p>SWIFT (UI UX)</p>
+            <li>Compétence 2</li>
+            <p>HTML/CSS</p>
+            <li>Compétence 3</li>
+            <p>PYTHON</p>
+            <li>Compétence 4</li>
+            <p>HARDWARE</p>
+          </ul>
+        </section>
+      </article>
+
+  <article>
+        <section>
+        <h2>Mes contacts</h2>
+        <ul>
+<!--             <li class="link_list"><a role="link" aria-label="Consulter mon profil Github !" href="https://github.com/kassim-abed" target="_blank" rel="noopener noreferrer">
+                Github</a>
+            </li> -->
+            <li class="link_list"><a role="link" aria-label="Parcourir mon profil Linkedin !" href="https://www.linkedin.com/in/kassim-abed-5b7913339/" target="_blank" rel="noopener noreferrer">
+                Linkedin</a>
+            </li>
+            <li class="link_list"><a role="link" aria-label="M'envoyer un e-mail !" href="mailto:kassim.abed@laplateforme.io" target="_blank" rel="noopener noreferrer">
+                kassim.abed@laplateforme.io</a>
+                <br></br>
+            </li>
+        </ul>
+      </section>
+    </article>
+    </main>
+
+  <footer>
+      <p>Mentions légales : © 2025 ABED Kassim | Portfolio personnel | Tous droits réservés
+        Les images et projets présentés sur ce site sont des créations personnelles ou collaboratives, réalisées dans le cadre de formations ou de travaux sous la supervision d'organisme tel La Plateforme Formation ou d'autres entités mentionnées sur ce site.</p>
+    </footer>
+  </body>
+</html>
