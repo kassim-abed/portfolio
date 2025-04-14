@@ -89,9 +89,9 @@
         <section>
         <h2>Mes contacts</h2>
         <ul>
-<!--             <li class="link_list"><a role="link" aria-label="Consulter mon profil Github !" href="https://github.com/kassim-abed" target="_blank" rel="noopener noreferrer">
+            <li class="link_list"><a role="link" aria-label="Consulter mon profil Github !" href="https://github.com/kassim-abed" target="_blank" rel="noopener noreferrer">
                 Github</a>
-            </li> -->
+            </li>
             <li class="link_list"><a role="link" aria-label="Parcourir mon profil Linkedin !" href="https://www.linkedin.com/in/kassim-abed-5b7913339/" target="_blank" rel="noopener noreferrer">
                 Linkedin</a>
             </li>
