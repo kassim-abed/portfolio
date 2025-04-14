@@ -89,3 +89,54 @@ header, footer {
 body {
     font-family: 'Roboto', sans-serif;
 }
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: space-around; /* Répartit l'espace de manière équilibrée */
+    gap: 30px; /* Ajoute un espacement constant entre les éléments */
+  }
+  
+  nav ul li a {
+    text-decoration: none;
+    padding: 10px 15px;
+    color: white;
+    border-radius: 5px;
+  }
+
+  .center {
+    display: flex;
+    flex-direction: column; /* Organise les éléments verticalement */
+    justify-content: center; /* Centre verticalement */
+    align-items: center; /* Centre horizontalement */
+    min-height: 25vh; /* Réduit la hauteur */
+    text-align: center;
+}
+
+.center h1 {
+    margin-bottom: 5px; /* Réduit encore l'espace entre le prénom et la phrase */
+}
+
+.center p {
+    margin-top: 0; /* Supprime tout espace inutile */
+}
+
+.scroll-to-top {
+    position: fixed;
+    top: 50%; /* Centre verticalement */
+    right: 40px; /* Positionne la flèche vers la droite */
+    background-color: #007BFF;
+    color: white;
+    padding: 10px 15px;
+    font-size: 24px;
+    border-radius: 50%;
+    text-align: center;
+    text-decoration: none;
+    box-shadow: 0px 4px 6px rgba(0,0,0,0.1);
+    transition: background-color 0.3s;
+    z-index: 999; /* Assure que la flèche est toujours au-dessus */
+    transform: translateY(-50%); /* Ajuste le centrage vertical précis */
+}
+
+  

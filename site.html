@@ -7,17 +7,29 @@
     <meta name="keywords" content="Kassim, Portfolio, Développement de jeux vidéo, Apprenti, La Plateforme">
     <title>Mon CV</title>
     <link rel="stylesheet" href="./site.css" />
+    <a href="#top" class="scroll-to-top">▲</a>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet"> 
   </head>
   <body>
     <header>
-      <h1>Kassim</h1>
-      <p>Apprenti à la plateforme en logiciel et immersif, cherche à me spécialiser dans le développement de jeux vidéos dès septembre 2025 pour une durée de 4 semaines en entreprise et 1 semaine à l'école </p>
+      <nav>
+        <ul>
+          <li><a href="#about">À propos de moi</a></li>
+          <li><a href="#education">Éducation</a></li>
+          <li><a href="#experience">Expérience</a></li>
+          <li><a href="#skills">Compétences</a></li>
+          <li><a href="#contacts">Mes contacts</a></li>
+        </ul>
+      </nav>
     </header>
     
     <main>
-      <article>
-        <section>
+      <article class="center">
+        <h1>Kassim</h1>
+        <p>Apprenti à la plateforme en logiciel et immersif, cherche à me spécialiser dans le développement de jeux vidéos dès septembre 2025 pour une durée de 4 semaines en entreprise et 1 semaine à l'école </p>
+        </article>
+        <article>
+        <section id="about">
           <h2>À propos de moi</h2>
           <p>
             J’adore regarder des animés, ces univers qui me transportent dans des histoires palpitantes et remplies d’émotions. Les jeux vidéo sont aussi une passion : ils me permettent de vivre des aventures uniques et de relever des défis captivants. À côté de cela, je vais régulièrement à la salle de sport pour me dépasser et garder un bon équilibre. Ce mélange entre détente, compétition et effort physique me permet de m’épanouir pleinement. Chaque jour est une nouvelle opportunité de vivre ce que j’aime à fond.
@@ -26,7 +38,7 @@
       </article>
 
       <article>
-        <section>
+        <section id="education">
           <h2>Éducation</h2>
           <ul>
             <li>
@@ -43,35 +55,26 @@
       </article>
 
       <article>
-        <section>
+        <section id="experience">
           <h2>Expérience</h2>
           <ul>
             <li>
               <strong>Ecole La Plateforme</strong> - Apprenti (Actuellement)
-              <p>J'ai pu faire plusieurs projets dont pokémon, budget buddy, démineur, fruit slicer, horloge, calculatrice et le pendu tout ça en langague python et j'ai utiliser pour certains projets la librairie Pygame pour avoir une interface graphique.</p>
+              <p>J'ai pu faire plusieurs projets dont pokémon, budget buddy, démineur, fruit slicer, horloge, calculatrice et le pendu tout ça en langage Python et j'ai utilisé pour certains projets la librairie Pygame pour avoir une interface graphique.</p>
             </li>
             <li>
               <strong>Atalian</strong> - Agent d'entretien (2024)
-              <p></p>
             </li>
             <li>
               <strong>Simplon</strong> - Apprenti (2024)
               <p>Nous avons été initiés au langage propre à Apple, car la formation de Simplon le proposait pour nous initier. Nous devions utiliser Figma, qui est une application de maquettage, ainsi que Swift UI/UX, afin de concevoir une application mobile à la fin de la formation.</p>
-            </li>
-            <li>
-              <strong>MC Stores</strong> - Stagiaire (2022)
-              <p></p>
-            </li>
-            <li>
-              <strong>Centre aéré</strong> - Animateur (2019-2021)
-              <p>Description de tes responsabilités et réalisations.</p>
             </li>
           </ul>
         </section>
       </article>
 
       <article>
-        <section>
+        <section id="skills">
           <h2>Compétences</h2>
           <ul>
             <li>Compétence 1</li>
@@ -87,7 +90,7 @@
       </article>
 
       <article>
-        <section>
+        <section id="contacts">
         <h2>Mes contacts</h2>
         <ul>
             <li class="link_list"><a role="link" aria-label="Consulter mon profil Github !" href="https://github.com/kassim-abed" target="_blank" rel="noopener noreferrer">
@@ -109,5 +112,15 @@
       <p>Mentions légales : © 2025 ABED Kassim | Portfolio personnel | Tous droits réservés
         Les images et projets présentés sur ce site sont des créations personnelles ou collaboratives, réalisées dans le cadre de formations ou de travaux sous la supervision d'organisme tel La Plateforme Formation ou d'autres entités mentionnées sur ce site.</p>
     </footer>
+    <script>
+      window.addEventListener("scroll", function() {
+        var scrollToTopBtn = document.querySelector(".scroll-to-top");
+        if (window.scrollY > 200) { // S'affiche après 200px de défilement
+          scrollToTopBtn.style.display = "block";
+        } else {
+          scrollToTopBtn.style.display = "none";
+        }
+      });
+    </script>
   </body>
 </html>
